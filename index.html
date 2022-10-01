@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+    integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Document</title>
+  <style>
+    main {
+      height: calc(100% - 127px);
+    }
+  </style>
+</head>
+
+<body class="w-screen h-screen overflow-x-hidden	">
+
+  <header class="flex justify-between items-center p-5">
+    <div class="logo text-3xl font-black">mnmist.</div>
+    <nav>
+      <ul class="flex items-center gap-6">
+        <a href="#">
+          <li class="font-semibold">HOME</li>
+        </a>
+        <a href="#">
+          <li class="font-semibold">PRODUCT</li>
+        </a>
+        <a href="#">
+          <li class="font-semibold">STORE</li>
+        </a>
+        <a href="#">
+          <li class="font-semibold">ABOUT US</li>
+        </a>
+      </ul>
+    </nav>
+    <div>
+      <img class="w-5 cursor-pointer" src="./hamburguer.svg" alt="hamburguer">
+    </div>
+  </header>
+
+  <main class="bg-[url('./developer2.jpg')] grid grid-cols-2 bg-no-repeat bg-center bg-contain">
+    <div>
+      <p class="w-96 m-auto text-left pt-9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis neque rem
+        commodi
+        hic odit?
+        Eos
+        doloremque velit
+        totam veritatis ducimus illo, qui ut. Magnam deserunt delectus ipsam iure dolorum pariatur!</p>
+      <p class="font-bold w-96 m-auto pt-3">Read More</p>
+    </div>
+    <div class="flex justify-center items-end pb-10 sm:items-center text-sky-700">
+      <h1 class="font-black text-6xl sm:text-9xl">less is <br> more.</h1>
+    </div>
+  </main>
+
+  <footer class="absolute bottom-0 flex justify-between w-full px-5 py-3">
+    <div class="social flex gap-2">
+      <a href=""><i class="fab fa-facebook text-3xl"></i></a>
+      <a href=""><i class="fab fa-instagram text-3xl"></i></a>
+      <a href=""><i class="fab fa-twitter text-3xl"></i></a>
+      <a href=""><i class="fab fa-whatsapp text-3xl"></i></a>
+    </div>
+    <div class="location">
+      <p class="text-2xl">Huancayo-Perú</p>
+    </div>
+  </footer>
+</body>
+
+</html>
